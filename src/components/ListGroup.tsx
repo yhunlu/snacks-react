@@ -1,4 +1,3 @@
-import React from 'react'
 
 const ListGroup = () => {
 //   only city names of america
@@ -30,7 +29,7 @@ const ListGroup = () => {
   ]
 
   items = []
-  
+
   return (
     <>
       <h1>List</h1>
