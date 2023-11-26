@@ -1,12 +1,14 @@
-import ListGroup from './components/ListGroup'
-
+import ListGroup from './components/ListGroup';
 
 const App = () => {
+  //   only city names of america
+  const items = ['New York', 'San Francisco', 'Los Angeles', 'Chicago'];
+
   return (
     <div>
-      <ListGroup />
+      <ListGroup items={items} heading="Cities" />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
