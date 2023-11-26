@@ -1,11 +1,10 @@
-import Alert from './components/Alert';
+import Form from "./components/Form";
+
 const App = () => {
 
   return (
     <div>
-      <Alert>
-        hey <span className="text-danger">there</span>
-      </Alert>
+      <Form />
     </div>
   );
 };
