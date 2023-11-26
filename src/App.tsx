@@ -1,20 +1,11 @@
-import ListGroup from './components/ListGroup';
-
+import Alert from './components/Alert';
 const App = () => {
-  //   only city names of america
-  const items = ['New York', 'San Francisco', 'Los Angeles', 'Chicago'];
-
-  const handleSelectItem = (item: string) => {
-    console.log(item);
-  };
 
   return (
     <div>
-      <ListGroup
-        items={items}
-        heading="Cities"
-        onSelectItem={handleSelectItem}
-      />
+      <Alert>
+        hey <span className="text-danger">there</span>
+      </Alert>
     </div>
   );
 };
